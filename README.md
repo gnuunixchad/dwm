@@ -1,4 +1,4 @@
-# My build of [dwm](https://dwm.suckless.org) - Dynamic Window Manager
+# <img src="./misc/dwm-repo.png" width="24"/> My build of [dwm](https://dwm.suckless.org) - Dynamic Window Manager
 ![screenshot](./misc/dwm.png)  
 dwm 6.8
 
