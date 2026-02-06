@@ -61,6 +61,8 @@ static const char *dmenucmd[] = { "dmenu_run" };
 static const char *termcmd[]  = { "st", NULL };
 
 #include "movestack.c"
+#include "shiftview.c"
+
 static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -76,6 +78,8 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_k,      movestack,      {.i = -1 } },
 	{ MODKEY,                       XK_z,      zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
+	{ MODKEY,                       XK_apostrophe,shiftview,   { .i = 1 } },
+	{ MODKEY,                       XK_semicolon, shiftview,   { .i = -1 } },
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
