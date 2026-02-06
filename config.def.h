@@ -73,6 +73,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
 	{ MODKEY,                       XK_v,      spawn,          SHCMD("st -T \"Floating_Term\" abduco -A dvtm dvtm-status") },
+	{ MODKEY,                       XK_r,      spawn,          SHCMD("st sh -c 'sleep 0.03 && lf'") },
 	{ MODKEY,                       XK_q,      spawn,          SHCMD("qutebrowser") },
 	{ MODKEY,                       XK_minus,  spawn,          SHCMD("${HOME}/.local/bin/audio sink --minus10") },
 	{ MODKEY|ShiftMask,             XK_minus,  spawn,          SHCMD("${HOME}/.local/bin/audio sink --minus") },
