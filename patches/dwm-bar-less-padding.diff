@@ -1,0 +1,21 @@
+commit d8f313470f6ed5ed1f816cc2ec18b2e4a73824a5
+Author: nate zhou <gnuunixchad@outlook.com>
+Date:   Fri Feb 6 10:51:50 2026 +0800
+
+    Mod(dwm.c): reduce tags lrpad to 0.75
+    
+    Reduce left right paddings for tags name.
+
+diff --git a/dwm.c b/dwm.c
+index cc2e66d..2cea80b 100644
+--- a/dwm.c
++++ b/dwm.c
+@@ -1668,7 +1668,7 @@ setup(void)
+ 	drw = drw_create(dpy, screen, root, sw, sh);
+ 	if (!drw_fontset_create(drw, fonts, LENGTH(fonts)))
+ 		die("no fonts could be loaded.");
+-	lrpad = drw->fonts->h;
++	lrpad = drw->fonts->h*0.75;
+ 	bh = drw->fonts->h + 2;
+ 	updategeom();
+ 	/* init atoms */
