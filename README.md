@@ -1,4 +1,5 @@
 # My build of [dwm](https://dwm.suckless.org) - Dynamic Window Manager
+![screenshot](./misc/dwm.png)
 
 ### Patches applied
 1. [sticky](https://dwm.suckless.org/patches/sticky)
