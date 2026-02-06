@@ -1668,7 +1668,7 @@ setup(void)
 	drw = drw_create(dpy, screen, root, sw, sh);
 	if (!drw_fontset_create(drw, fonts, LENGTH(fonts)))
 		die("no fonts could be loaded.");
-	lrpad = drw->fonts->h;
+	lrpad = drw->fonts->h*0.75;
 	bh = drw->fonts->h + 2;
 	updategeom();
 	/* init atoms */
