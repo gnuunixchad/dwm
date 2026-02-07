@@ -31,6 +31,7 @@ static const Rule rules[] = {
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 	{ NULL,       NULL,  "Floating_Term", 0,            1,           -1 },
 	{ NULL,       NULL,  "Floating_IMG",  0,            1,           -1 },
+	{ "Nsxiv","Floating_IMG", NULL,       0,            1,           -1 },
 	{ NULL,       NULL, "Fcitx Configuration", 0,       1,           -1 },
 };
 
