@@ -108,6 +108,7 @@ static const Key keys[] = {
 	{ MODKEY|ControlMask,           XK_space,  spawn,          SHCMD("mpc --toggle && ${HOME}/.local/bin/lsmus") },
 	{ MODKEY|ControlMask,           XK_p,      spawn,          SHCMD("mpc prev") },
 	{ MODKEY|ControlMask,           XK_n,      spawn,          SHCMD("mpc next") },
+    { MODKEY|ControlMask,           XK_s,      spawn,          SHCMD("${HOME}/.local/bin/sk") },
     { MODKEY|ShiftMask,             XK_b,      spawn,          SHCMD("redshift -P -O 5000") },
     { MODKEY|ControlMask,           XK_b,      spawn,          SHCMD("redshift -x") },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
