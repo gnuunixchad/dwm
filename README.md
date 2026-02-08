@@ -14,6 +14,7 @@ dwm 6.8
 9. [actualfullscreen](https://dwm.suckless.org/patches/actualfullscreen)
 10. [focusmaster-return](https://dwm.suckless.org/patches/focusmaster)
 11. [bar-less-padding](./patches/dwm-bar-less-padding.diff)
+12. [bar-non-focus-status](./patches/dwm-bar-non-focus-status.diff)
 
 ---
 

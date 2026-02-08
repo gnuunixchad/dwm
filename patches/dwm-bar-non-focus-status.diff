@@ -1,0 +1,24 @@
+commit 7d179660a23a536c14d996308b70601b443dd7d4
+Author: nate zhou <gnuunixchad@outlook.com>
+Date:   Sun Feb 8 15:30:56 2026 +0800
+
+    Mod(dwm.c): draw status on all monitors
+
+diff --git a/dwm.c b/dwm.c
+index 53b393e..41697b6 100644
+--- a/dwm.c
++++ b/dwm.c
+@@ -707,11 +707,11 @@ drawbar(Monitor *m)
+ 		return;
+ 
+ 	/* draw status first so it can be overdrawn by tags later */
+-	if (m == selmon) { /* status is only drawn on selected monitor */
++	//if (m == selmon) { /* status is only drawn on selected monitor */
+ 		drw_setscheme(drw, scheme[SchemeNorm]);
+ 		tw = TEXTW(stext) - lrpad + 2; /* 2px right padding */
+ 		drw_text(drw, m->ww - tw, 0, tw, bh, 0, stext, 0);
+-	}
++	//}
+ 
+ 	for (c = m->clients; c; c = c->next) {
+ 		occ |= c->tags;
