@@ -102,7 +102,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_y,      spawn,          SHCMD("${HOME}/.local/bin/shoot") },
 	{ MODKEY|ShiftMask,             XK_y,      spawn,          SHCMD("${HOME}/.local/bin/shoot --geo") },
 	{ MODKEY|ControlMask,           XK_y,      spawn,          SHCMD("${HOME}/.local/bin/shoot --all") },
-	{ MODKEY,                       XK_c,      spawn,          SHCMD("clipmenu") },
+	{ MODKEY,                       XK_c,      spawn,          SHCMD("${HOME}/.local/bin/clip") },
 	{ MODKEY,                       XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address") },
 	{ MODKEY|ShiftMask,             XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address --record") },
 	{ MODKEY|ControlMask,           XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address --multi") },
