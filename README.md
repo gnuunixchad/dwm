@@ -66,6 +66,7 @@ Run `startx` with my [xinitrc](https://codeberg.org/unixchad/dotfiles/src/branch
 | audio volume | [audio](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/audio) |
 | audio sink | [speaker](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/speaker) |
 | bookmark | [address](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/address) |
+| clipboard | [clip](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/clip) |
 | file opener | [rifle](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/rifle) · [gpg-rifle](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/gpg-rifle) · [url-rifle](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/url-rifle) |
 | file previewer | [scope](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/scope) |
 | mounting | [saddle](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/saddle) · [phone](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/phone) |
