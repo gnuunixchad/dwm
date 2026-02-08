@@ -48,7 +48,7 @@ Run `startx` with my [xinitrc](https://codeberg.org/unixchad/dotfiles/src/branch
 | file sharing | rsync · samba · android-file-transfer · qrtool |
 | dotfiles manager | git · stow |
 | clipboard | clipmenu |
-| screenshot | scrot |
+| screenshot | maim · slop |
 | input method | fcitx5 |
 
 Many tasks are done with my personal [scripts](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin).
