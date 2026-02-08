@@ -48,7 +48,36 @@ Run `startx` with my [xinitrc](https://codeberg.org/unixchad/dotfiles/src/branch
 | file sharing | rsync · samba · android-file-transfer · qrtool |
 | dotfiles manager | git · stow |
 | clipboard | clipmenu |
-| screenshot | maim · slop |
 | input method | fcitx5 |
 
-Many tasks are done with my personal [scripts](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin).
+## My Personal Scripts (supporting Wayland and Xorg)
+| | |
+|:---|:---|
+| status bar | [damblocks](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/damblocks) |
+| weather report | [wttr](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/wttr) |
+| screenshot | [shoot](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/shoot) |
+| screen capture | [capture](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/capture) |
+| webcam | [camera](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/camera) |
+| voice recorder | [record](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/record) |
+| brightness | [bright](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/bright) |
+| audio volume | [audio](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/audio) |
+| audio sink | [speaker](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/speaker) |
+| bookmark | [address](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/address) |
+| file opener | [rifle](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/rifle) · [gpg-rifle](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/gpg-rifle) · [url-rifle](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/url-rifle) |
+| file previewer | [scope](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/scope) |
+| mounting | [saddle](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/saddle) · [phone](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/phone) |
+| gpg | [seal](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/seal) |
+| mutt_oauth2 | [muttauth](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/muttauth) |
+| shortcuts generator | [teleport-genesis](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/teleport-genesis) |
+| qutebrowser | [userscripts](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/qutebrowser/) |
+| xwayland-satellite | [xwl](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/xwl) |
+| reload other scripts | [reload](https://codeberg.org/unixchad/dotfiles/src/branch/master/.local/bin/reload) |
+
+# Software I use to create videos on X
+| | |
+|:---|:---|
+| screen capture | ffmpeg |
+| voice recording | pw-record · noise-suppression-for-voice |
+| video editing | ffmpeg · mpv-cut · kdenlive |
+| screenshots | maim · slop |
+| thumbnails | imagemagick · gimp |
