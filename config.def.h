@@ -96,7 +96,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_bracketright, spawn,    SHCMD("${HOME}/.local/bin/bright --plus") },
 	{ MODKEY|ControlMask|ShiftMask, XK_bracketleft,  spawn,    SHCMD("${HOME}/.local/bin/bright --min") },
 	{ MODKEY|ControlMask|ShiftMask, XK_bracketright, spawn,    SHCMD("${HOME}/.local/bin/bright --max") },
-	{ MODKEY|ShiftMask,             XK_w,      spawn,          SHCMD("i3lock -i ${HOME}/.local/share/lockscreen -f") },
+	{ MODKEY|ShiftMask,             XK_w,      spawn,          SHCMD("slock") },
 	{ MODKEY|ShiftMask,             XK_e,      spawn,          SHCMD("${HOME}/.local/bin/hibe") },
 	{ ControlMask,                  XK_space,  spawn,          SHCMD("fcitx5-remote -t") },
 	{ MODKEY,                       XK_n,      spawn,          SHCMD("dunstctl history-pop") },
