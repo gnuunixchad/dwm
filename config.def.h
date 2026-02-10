@@ -106,6 +106,7 @@ static const Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_y,      spawn,          SHCMD("${HOME}/.local/bin/shoot --geo") },
 	{ MODKEY|ControlMask,           XK_y,      spawn,          SHCMD("${HOME}/.local/bin/shoot --all") },
 	{ MODKEY,                       XK_c,      spawn,          SHCMD("${HOME}/.local/bin/clip") },
+	{ MODKEY|ControlMask,           XK_c,      spawn,          SHCMD("${HOME}/.local/bin/clip --wipe") },
 	{ MODKEY,                       XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address") },
 	{ MODKEY|ShiftMask,             XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address --record") },
 	{ MODKEY|ControlMask,           XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address --multi") },
