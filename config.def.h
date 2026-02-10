@@ -110,7 +110,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address") },
 	{ MODKEY|ShiftMask,             XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address --record") },
 	{ MODKEY|ControlMask,           XK_a,      spawn,          SHCMD("${HOME}/.local/bin/address --multi") },
-	{ MODKEY|ControlMask,           XK_space,  spawn,          SHCMD("mpc --toggle && ${HOME}/.local/bin/lsmus") },
+	{ MODKEY|ControlMask,           XK_space,  spawn,          SHCMD("mpc toggle && ${HOME}/.local/bin/lsmus") },
 	{ MODKEY|ControlMask,           XK_p,      spawn,          SHCMD("mpc prev") },
 	{ MODKEY|ControlMask,           XK_n,      spawn,          SHCMD("mpc next") },
     { MODKEY|ControlMask,           XK_s,      spawn,          SHCMD("${HOME}/.local/bin/sk") },
