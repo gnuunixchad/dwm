@@ -77,6 +77,7 @@ static const Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
 	{ MODKEY,                       XK_Return, spawn,          {.v = termcmd } },
+	{ 0,                            XK_Caps_Lock,spawn,        SHCMD("${HOME}/.local/bin/capslock") },
 	{ MODKEY,                       XK_v,      spawn,          SHCMD("st -T \"Floating_Term\" abduco -A dvtm dvtm-status") },
 	{ MODKEY,                       XK_r,      spawn,          SHCMD("st sh -c 'sleep 0.03 && lf'") },
 	{ MODKEY,                       XK_q,      spawn,          SHCMD("qutebrowser") },
