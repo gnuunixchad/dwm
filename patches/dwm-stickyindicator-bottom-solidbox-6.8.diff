@@ -1,0 +1,36 @@
+commit 78ba7a212f7b9ffdc87b4666b5709d6ce6bc6f69
+Author: nate zhou <gnuunixchad@outlook.com>
+Date:   Wed Feb 11 21:54:30 2026 +0800
+
+    Patch: stickyindicator-bottom-solidbox
+    
+    Draw the solid box sticky indicator always at the bottom left corner.
+
+diff --git a/config.def.h b/config.def.h
+index 992afc8..d4dd368 100644
+--- a/config.def.h
++++ b/config.def.h
+@@ -20,8 +20,8 @@ static const char *colors[][3]      = {
+ 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
+ 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+ };
+-static const XPoint stickyicon[]    = { {0,0}, {4,0}, {4,8}, {2,6}, {0,8}, {0,0} }; /* represents the icon as an array of vertices */
+-static const XPoint stickyiconbb    = {4,8};	/* defines the bottom right corner of the polygon's bounding box (speeds up scaling) */
++static const XPoint stickyicon[]    = { {0,0}, {4,0}, {4,4}, {0,4}, {0,0} }; /* represents the icon as an array of vertices */
++static const XPoint stickyiconbb    = {4,4};	/* defines the bottom right corner of the polygon's bounding box (speeds up scaling) */
+ 
+ /* tagging */
+ static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+diff --git a/dwm.c b/dwm.c
+index c725b1e..2af87c7 100644
+--- a/dwm.c
++++ b/dwm.c
+@@ -813,7 +813,7 @@ drawbar(Monitor *m)
+ 			if (m->sel->isfloating)
+ 				drw_rect(drw, x + boxs, boxs, boxw, boxw, m->sel->isfixed, 0);
+ 			if (m->sel->issticky)
+-				drw_polygon(drw, x + boxs, m->sel->isfloating ? boxs * 2 + boxw : boxs, stickyiconbb.x, stickyiconbb.y, boxw, boxw * stickyiconbb.y / stickyiconbb.x, stickyicon, LENGTH(stickyicon), Nonconvex, m->sel->tags & m->tagset[m->seltags]);
++                drw_polygon(drw, x + boxs, bh - boxs - (boxw * stickyiconbb.y / stickyiconbb.x), stickyiconbb.x, stickyiconbb.y, boxw, boxw * stickyiconbb.y / stickyiconbb.x, stickyicon, LENGTH(stickyicon), Nonconvex, m->sel->tags & m->tagset[m->seltags]);
+ 		} else {
+ 			drw_setscheme(drw, scheme[SchemeNorm]);
+ 			drw_rect(drw, x, 0, w, bh, 1, 1);

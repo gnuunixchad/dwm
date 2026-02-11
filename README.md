@@ -18,6 +18,7 @@ dwm 6.8
 13. [savefloats](./patches/dwm-savefloats-20181212-b69c870.diff)
 14. [deck](https://dwm.suckless.org/patches/deck)
 15. [sickyindicator](https://dwm.suckless.org/patches/stickyindicator)
+16. [sickyindicator-bottom-solidbox](./patches/dwm-stickyindicator-bottom-solidbox-6.8.diff)
 
 ---
 
