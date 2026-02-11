@@ -17,6 +17,7 @@ dwm 6.8
 12. [bar-non-focus-status](./patches/dwm-bar-non-focus-status.diff)
 13. [savefloats](./patches/dwm-savefloats-20181212-b69c870.diff)
 14. [deck](https://dwm.suckless.org/patches/deck)
+15. [sickyindicator](https://dwm.suckless.org/patches/stickyindicator)
 
 ---
 
