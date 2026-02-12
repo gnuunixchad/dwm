@@ -55,6 +55,7 @@ Run `startx` with my [xinitrc](https://codeberg.org/unixchad/dotfiles/src/branch
 | dotfiles manager | git · stow |
 | clipboard | clipmenu |
 | input method | fcitx5 |
+| magnifier | [zoomx](https://codeberg.org/unixchad/zoomx) |
 
 ## My Personal Scripts (supporting Wayland and Xorg)
 | | |
