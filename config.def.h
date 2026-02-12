@@ -102,6 +102,7 @@ static const Key keys[] = {
 	{ MODKEY|ControlMask|ShiftMask, XK_bracketright, spawn,    SHCMD("${HOME}/.local/bin/bright --max") },
 	{ MODKEY|ShiftMask,             XK_w,      spawn,          SHCMD("slock") },
 	{ MODKEY|ShiftMask,             XK_e,      spawn,          SHCMD("${HOME}/.local/bin/hibe") },
+	{ MODKEY|ShiftMask,             XK_m,      spawn,          SHCMD("pgrep zoomx && killall -e zoomx || zoomx") },
 	{ ControlMask,                  XK_space,  spawn,          SHCMD("fcitx5-remote -t") },
 	{ MODKEY,                       XK_n,      spawn,          SHCMD("dunstctl history-pop") },
 	{ MODKEY|ShiftMask,             XK_n,      spawn,          SHCMD("dunstctl close") },
