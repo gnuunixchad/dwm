@@ -20,6 +20,7 @@ dwm 6.8
 15. [sickyindicator](https://dwm.suckless.org/patches/stickyindicator)
 16. [sickyindicator-bottom-solidbox](./patches/dwm-stickyindicator-bottom-solidbox-6.8.diff)
 17. [focusonclick](https://dwm.suckless.org/patches/focusonclick)
+18. [alpha](https://dwm.suckless.org/patches/alpha)
 
 ---
 

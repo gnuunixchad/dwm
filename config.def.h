@@ -11,6 +11,8 @@ static const char *fonts[]          = {
     "SourceCodePro:medium:size=13",
     "SymbolsNerdFont:normal:size=13"
 };
+static unsigned int baralpha        = OPAQUE;
+static unsigned int borderalpha     = OPAQUE;
 static const char col_gray1[]       = "#000000";
 static const char col_gray2[]       = "#000000";
 static const char col_gray3[]       = "#bbbbbb";
